@@ -1,0 +1,24 @@
+html {
+  height:100%;
+}
+
+body {
+  background-size: 100% 100%;
+}
+
+#container {
+  text-align: center;
+  margin-top: 0;
+}
+
+.clock {
+  font-size: 100px;
+  color: orange;
+  margin-top: 15px }
+
+.hours:after, .minutes:after {
+  content: ":"; }
+
+#progress {
+  height: 40px;
+  transition: width 1s linear }
